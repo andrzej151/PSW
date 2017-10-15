@@ -40,3 +40,13 @@ a{
     text-align: center;
     margin-top: 30px;
 }
+
+.formularz{
+    width: 500px;
+    margin-top: 30px;
+    
+    
+}
+form{
+    text-align: right;
+}

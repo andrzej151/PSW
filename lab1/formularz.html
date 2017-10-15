@@ -38,7 +38,114 @@
                 Formularz
             </div>
         </a>
-    </nav>
+        <div style="clear: both"></div>
+    </nav>  
+    <div class="formularz">
+        <form action="#" method="post">
+           <div class="element">
+                <label for="imie">Imie:</label>
+                <input type="text" name="imie" id="imie">
+           </div>
+            
+            <div class="element">
+                <label for="nazwisko">Nazwisko:</label>
+                <input type="text" name="nazwisko" id="nazwisko">
+            </div>
+            
+            <div class="element">
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email">
+            </div>
+            
+            <div class="element">
+               <span>Ocena:</span>
+               <div>
+                    <label >1</label>
+                    <input type="radio" name="ocena" value="1" id="o1">
+                    <label >2</label>
+                    <input type="radio" name="ocena" value="2" id="o2">
+                    <label >3</label>
+                    <input type="radio" name="ocena" value="3" id="o3">
+                    <label >4</label>
+                    <input type="radio" name="ocena" value="4" id="o4">
+                    <label >5</label>
+                    <input type="radio" name="ocena" value="5" id="o5">
+                </div>
+            </div>
+            
+            <div class="element">
+            <label >
+                Tresc:
+            </label>
+            <textarea name="tresc"  cols="30" rows="10">
+                
+            </textarea></div>
+            
+            <div class="element">
+              <div>
+                  <span>Do kogo wysłać wiadomość:</span>
+              </div>
+                 
+                  <div>
+                      <label>
+                          Anna
+                      </label>
+                      <input type="checkbox" name="osoba" value="Anna" >
+                    </div>
+                  <div>
+                     <label >
+                         Tomasz 
+                      </label>
+                      <input type="checkbox" name="osoba" value="Tomasz" >
+                    </div>
+                  <div>
+                      <label >
+                          Monika
+                      </label>
+                      <input type="checkbox" name="osoba" value="Monika" >
+                    </div>
+                  <div>
+                      <label >
+                          Bartosz
+                      </label>
+                      <input type="checkbox" name="osoba" value="Bartosz" >
+                    </div>
+                  <div>
+                      <label >
+                          Adam
+                      </label>
+                      <input type="checkbox" name="osoba" value="Adam" >
+                    </div>
+            </div>
+            <div class="element">
+               
+                  <label>Rate our site:
+
+                   
+                <select name  = "rating">           
+                   <option selected>Amazing</option>
+                   <option>10</option>              
+                   <option>9</option>               
+                   <option>8</option>               
+                   <option>7</option>               
+                     <option>6</option>               
+                     <option>5</option>               
+                    <option>4</option>               
+                 <option>3</option>               
+                 <option>2</option>               
+                 <option>1</option>               
+                 <option>Awful</option>           
+              </select>                           
+              </label>
+            </div>
+            <div class="element">
+               <input type="submit" value="wyslij">
+                <input type="reset" value="wyczysc">
+            </div>
+            
+            
+        </form> 
+    </div>
      
 </body>
 </html>
