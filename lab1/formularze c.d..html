@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="index.html">
+            <div class="option">
+                 <img src="img/logo.png" width="90" height="40" alt="logo">
+            </div>
+        </a>
+        <a href="text.html">
+            <div class="option">
+                Tekst
+            </div>
+        </a>
+        <a href="grafika.html">
+            <div class="option">
+                Grafika
+            </div>
+        </a>
+        <a href="listy.html">
+            <div class="option">
+                Listy
+            </div>
+        </a>
+        <a href="tabele.html">
+            <div class="option">
+                Tabele
+            </div>
+        </a>
+        <a href="formularz.html">
+            <div class="option">
+                Formularz
+            </div>
+        </a>
+        <a href="formularze%20c.d..html">
+            <div class="option">
+                Formularze c.d.
+            </div>
+        </a>
+        <div style="clear: both"></div>
+    </nav>
+    
+    <h4 style="text-align: center; text-decoration: underline">FORMULARZ Z OPCJĄ AUTOUZUPEŁNIANIA I WALIDACJĄ</h4>
+    <div class="formularz">
+        <form method="post" autocomplete="on">
+            <p><label>Imię : 
+                <input type="text" id="imie" autofocus/> (np. Jan)
+                </label></p>
+            <p><label>Nazwisko : 
+                <input type="text" id = "nazwisko" required/> (np. Kowalski)
+                </label></p>
+            <p><label for = "txtList">Miesiąc urodzin : 
+                <input type="text" id = "txtList" list = "months"/>
+                <datalist id="months">
+                    <option value="Styczeń">
+                    <option value="Luty">
+                    <option value="Marzec">
+                    <option value="Kwiecień">
+                    <option value="Maj">
+                    <option value="Czerwiec">
+                    <option value="Lipiec">
+                    <option value="Sierpień">
+                    <option value="Wrzesień">
+                    <option value="Październik">
+                    <option value="Listopad">
+                    <option value="Grudzień">
+                </datalist> (np. Maj)
+                </label></p>
+            <p><label>Adres email :
+                <input type="email" id="email" required/>(np. jan.kowalski@gmail.com)
+                </label></p>
+            <p><label>Numer tel :
+                <input type ="tel" id="telefon" pattern="\d{3}[\-]\d{3}[\-]\d{3}"/>(np. 123-456-789)
+                </label></p>
+            <p><input type="submit" value="Prześlij"/>
+                <input type="reset" value="Wyczyść"/></p>
+        </form>
+    </div>
+    <br>
+    <h4 style="text-align: center; text-decoration: underline">FORMULARZ Z WYKORZYSTANIEM PLACEHOLDERÓW</h4>
+    <div class="formularz">
+        <form method="post" autocomplete="on">
+            <p><label>Twój ulubiony kolor : 
+                <input type="color"/>
+                </label></p>
+            <p><label>Wybierz miesiąc i rok swoich urodzin : 
+                <input type="month"/>
+                </label></p>
+            <p><label>Ile punktów chciałbyś dostać za 2. listę z HTML? : 
+                <input type="range" list="tickmarks" step="10">
+                    <datalist id="tickmarks">
+                        <option value="0">
+                        <option value="10">
+                        <option value="20">
+                        <option value="30">
+                        <option value="40">
+                        <option value="50">
+                        <option value="60">
+                        <option value="70">
+                        <option value="80">
+                        <option value="90">
+                        <option value="100">
+                    </datalist>
+                </label></p>
+            <p><label>Wyszukiwanie : 
+                <input type="search" name="query" placeholder="Wpisz czego szukasz">
+                </label></p>
+            <p><label>Podaj adres URL dowolnej strony internetowej : 
+                <input type="url" placeholder="np. http://www.fcbarca.com/">
+                </label></p>
+            <p><input type="submit" value="Prześlij"/>
+                <input type="reset" value="Wyczyść"/></p>
+        </form>
+    </div>
+</body>
+</html>
