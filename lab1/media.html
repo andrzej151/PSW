@@ -2,9 +2,84 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Rozwijalne menu</title>
+    <title>Media</title>
     <link rel="stylesheet" href="/css/styleLab3.css">
+    <style>
+        #content{
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+        }
+        
+        .column > img{
+            text-align: center;
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 5px;
+            
+        }
+        
+       
+        .column {
+            width: 90%;
+            float: left;
+            margin: 10px;
+            border: 1px white solid;
+            padding: 5px;
+            text-align: center;
+            background: blue;
+            }
+        
+        
+         @media (min-width: 480px){
+            
+        .column {
+            width: 45%;
+            float: left;
+            margin: 10px auto;
+            border: 1px white solid;
+            padding: 5px;
+            text-align: center;
+            background: green;
+            }
+        }
+        
+         @media (min-width: 1000px){
+            
+        .column {
+            width: 30%;
+            float: left;
+            margin: 10px;
+            border: 1px white solid;
+            padding: 5px;
+            text-align: center;
+            background: red;
+            }
+        }
+        
+    @media print
+    {
+        body
+        {
+            background: white;
+            color: black;
+        }   
+        .column{
+            border-color: black;
+            width: 45%;
+        }
+        nav
+        {
+            display: none;
+        }
+    }
+    
+    
+    </style>
+
 </head>
+
 <body>
    <nav>
       		
@@ -104,9 +179,50 @@
 				</li>
 				
 			</ol>
+        </nav>
+			<main> 
+			<div id="content">
+			   <div class="column">
+			       <img src="img/kwiatek.jpg" alt="kwiatek">
+			       <div class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, cumque odio ut dolores nam consequuntur? Praesentium dignissimos, possimus maiores laborum blanditiis eveniet itaque, nostrum deleniti fuga! Nostrum </div>
+			   </div>
+			   <div class="column">
+			       <img src="img/koperta.png" alt="koperta">
+			       <div class="text">Hic molestiae ab praesentium consequuntur fugiat possimus, ipsum aliquid perspiciatis quis saepe accusamus dolorum obcaecati minima quaerat sint quo error aut at totam ad unde temporibus voluptates vitae. Quasi, quod.</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/logo.png" alt="logo">
+			       <div class="text">Eos veritatis ipsum porro ad dignissimos eius ullam enim quisquam omnis, maxime sed exercitationem quae labore molestiae placeat? Quam animi fugiat dolores amet consectetur tempora corporis asperiores placeat molestiae doloribus.</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/backgroundIm.jpg" alt="back">
+			       <div class="text">Odio quisquam quibusdam animi, accusamus error exercitationem praesentium deleniti adipisci harum, rerum, eligendi asperiores ipsa iure nemo nobis nisi corporis nam, voluptate veritatis. Ea dignissimos perferendis veritatis, nemo dolore, quasi.</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/backgroundIm2.jpg" alt="back2">
+			       <div class="text">Autem ex animi earum cupiditate recusandae illum, id nemo debitis iure velit asperiores architecto corrupti optio officiis nobis fuga pariatur, voluptate hic quas corporis assumenda alias sapiente est. Dicta, atque.</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/logo.png" alt="logo">
+			       <div class="text">Magnam repudiandae totam provident temporibus nesciunt, cum, dignissimos aliquam repellat libero nam tempore delectus possimus quae aspernatur harum quo amet. Vitae debitis dicta quasi esse quis velit, illo! Totam, explicabo.</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/koperta.png" alt="koperta">
+			       <div class="text">Velit, adipisci, nobis! Consectetur quisquam, officiis pariatur distinctio. Neque natus, nemo. Architecto inventore, fugit magni veniam, laborum obcaecati eius vero doloremque deserunt libero, ut non, officiis ad error veritatis cumque?</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/kwiatek.jpg" alt="kwiat">
+			       <div class="text">Distinctio sunt doloribus quisquam ipsam facilis, ab, consectetur sequi facere molestias similique eos velit in harum delectus libero rerum quam suscipit nihil eligendi laboriosam molestiae modi iure amet aliquid dolores.</div>
+			   </div>
+			   <div class="column">
+			       <img src="img/logo.png" alt="logo">
+			       <div class="text">Numquam suscipit dignissimos temporibus distinctio omnis architecto ratione, est doloremque non qui laboriosam repellat animi eaque dolorem, saepe, quibusdam sunt laudantium officiis provident nam deserunt debitis voluptatem? Provident neque, odio.</div>
+			   </div>
+			</div>
+			</main>
 		
 
-   </nav>
+
     
 </body>
 </html>
