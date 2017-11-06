@@ -3,7 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <title>Rozwijalne menu</title>
-    <link rel="stylesheet" href="/css/styleLab3.css">
+    <link rel="stylesheet" href="css/styleLab3.css">
+    <style>
+        
+        #empty{
+            width: 100px;
+            height: 50px;
+            background: #FFFFFF;
+        }
+        #empty:empty{
+            width: 100px;
+            height: 50px;
+            background: #0000FF;
+        }
+        #hover:hover{
+            width: 100px;
+            height: 50px;
+            background:  #FF0000;
+        }
+        #focus:focus{
+            width: 100px;
+            height: 50px;
+            background: #00FF00;
+        }
+        #required:required{
+            border: solid 3px #FF0000;
+        }
+        a:visited
+        {
+            color: white;
+            font-size: 20px;
+            text-decoration: none
+        }
+        
+        
+    </style>
 </head>
 <body>
    <nav>
@@ -107,6 +141,23 @@
 		
 
    </nav>
-    
+    <main>
+        <div id="container">
+            
+               <a href="#ev">
+                 visited
+                
+                </a>
+                
+                <form action="#" method="post">
+                   :focus<input type="text" name="imie" id="focus">
+                   :hover<input type="text" name="imie1" id="hover">
+                   :empty<input type="text" name="imie2" id="empty">
+                   :required <input type="text" name="imie" required id="required">
+                    <input type="submit" value="Wyslij">
+                </form>
+            
+        </div>
+    </main>
 </body>
 </html>
