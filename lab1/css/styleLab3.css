@@ -11,7 +11,7 @@ body{
     background-image: url("../img/pool_table.png");
     font-size: 20px;
     color: #FFFFFF;
-    margin: 0 !
+    margin: 0 !important
 }
 
 nav
@@ -20,7 +20,7 @@ nav
 	padding: 10px 0;
 	background-color: #0c6d0c;
 	text-align: center;
-	border-top: 1px solid ##334a33;
+	border-top: 1px solid #334a33;
 	border-bottom: 1px solid #334a33;
 }
        
