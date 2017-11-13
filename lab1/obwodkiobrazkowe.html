@@ -4,6 +4,28 @@
     <meta charset="UTF-8">
     <title>Rozwijalne menu</title>
     <link rel="stylesheet" href="css/styleLab3.css">
+    <style  type = "text/css">
+           div
+11            {
+12               border-width: 30px;
+13               width: 234px;      
+14               padding: 20px 20px;
+15            }
+16            #stretch
+17            {
+18               -webkit-border-image: url(img/border.png) 80 80 80 80 stretch;
+19               -moz-border-image: url(img/border.png) 80 80 80 80 stretch;   
+20               -o-border-image: url(img/border.png) 80 80 80 80 stretch;     
+21               border-image: url(img/border.png) 80 80 80 80 stretch;        
+22            }
+23            #repeat
+24            {
+25               -webkit-border-image:url(img/border.png) 34% 34% repeat;
+26               -moz-border-image:url(img/border.png) 34% 34% repeat;   
+27               -o-border-image:url(img/border.png) 34% 34% repeat;     
+28               border-image:url(img/border.png) 34% 34% repeat;        
+29            }
+    </style>
 </head>
 <body>
    <nav>
@@ -115,7 +137,12 @@
 			</ol>
    </nav>
    <main>
-       
+       <h2>Obrazkowe ramki</h2>
+         <h2>Image Borders</h2>
+         <img src = "img/logo.png" with="300px" height="300px" alt = "image used to demonstrate borders">
+         <div id="stretch">Stretching the image border</div>
+         <div id="repeat">Repeating the image border</div>
+     
    </main>
     
 </body>
