@@ -4,6 +4,88 @@
     <meta charset="UTF-8">
     <title>Rozwijalne menu</title>
     <link rel="stylesheet" href="css/styleLab3.css">
+    
+     <style>
+      #napis {
+        width:448px;
+        height:46px;
+        font-size:24px;
+        margin:0 auto;
+        margin-top: 50px;
+        text-align:center;
+        color: black
+      }
+
+      #napis > span {
+        display:block;
+        float:left;
+        width:40px;
+        line-height:40px;
+        margin:0 5px;
+        border:3px solid #FDD700;
+        background-color:#FFF;
+        border-radius:6px;
+        animation:animowany_tekst 5s linear infinite;
+        -webkit-animation:animowany_tekst 5s linear infinite;
+      }
+
+      #napis > #litera1 {
+        animation-delay:250ms;
+        -webkit-animation-delay:250ms;
+      }
+
+      #napis > #litera2 {
+        animation-delay:500ms;
+        -webkit-animation-delay:500ms;
+      }
+
+      #napis > #litera3 {
+        animation-delay:750ms;
+        -webkit-animation-delay:750ms;
+      }
+
+      #napis > #litera4 {
+        animation-delay:1000ms;
+        -webkit-animation-delay:1000ms;
+      }
+
+      #napis > #litera5 {
+        animation-delay:1250ms;
+        -webkit-animation-delay:1250ms;
+      }
+
+      #napis > #litera6 {
+        animation-delay:1500ms;
+        -webkit-animation-delay:1500ms;
+      }
+
+      #napis > #litera7 {
+        animation-delay:1750ms;
+        -webkit-animation-delay:1750ms;
+      }
+
+      #napis > #litera8 {
+        animation-delay:2000ms;
+        -webkit-animation-delay:2000ms;
+      }
+
+      
+      @keyframes animowany_tekst
+      {
+        0% {transform:rotate(0);}
+        10% {transform:rotate(360deg);}
+        100% {transform:rotate(360deg);}
+      }
+
+      @-webkit-keyframes animowany_tekst
+      {
+        0% {-webkit-transform:rotate(0);}
+        10% {-webkit-transform:rotate(360deg);}
+        100% {-webkit-transform:rotate(360deg);}
+      }
+
+    </style>
+  
 </head>
 <body>
    <nav>
@@ -115,7 +197,9 @@
 			</ol>
    </nav>
    <main>
-       
+       <div id="napis">
+    <span id="litera1">A</span><span id="litera2">N</span><span id="litera3">I</span><span id="litera4">M</span><span id="litera5">A</span><span id="litera6">C</span><span id="litera7">J</span><span id="litera8">A</span>
+  </div>
    </main>
     
 </body>
