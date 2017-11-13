@@ -4,119 +4,201 @@
     <meta charset="UTF-8">
     <title>Rozwijalne menu</title>
     <link rel="stylesheet" href="css/styleLab3.css">
+    <style type="text/css">
+        .flexbox {
+            width: 600px;
+            height: 420px;
+            display: -webkit-box;
+            display: box;
+            -webkit-box-orient: horizontal;
+            box-orient: horizontal;
+        }
+
+        .flexbox>div {
+            -webkit-transition: 1s ease-out;
+            transition: 1s ease-out;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: 120px;
+            margin: 10px -10px 10px 0px;
+            padding: 20px 20px 20px 20px;
+            box-shadow: 10px 10px 10px dimgrey;
+        }
+
+        .flexbox>div:nth-child(1) {
+            background-color: lightgrey;
+        }
+
+        .flexbox>div:nth-child(2) {
+            background-color: lightgrey;
+        }
+
+        .flexbox>div:nth-child(3) {
+            background-color: lightgrey;
+        }
+
+        .flexbox>div:nth-child(4) {
+            background-color: lightgrey;
+        }
+
+        .flexbox>div:hover {
+            width: 200px;
+            color: white;
+            font-weight: bold;
+        }
+
+        .flexbox>div:nth-child(1):hover {
+            background-color: royalblue;
+        }
+
+        .flexbox>div:nth-child(2):hover {
+            background-color: crimson;
+        }
+
+        .flexbox>div:nth-child(3):hover {
+            background-color: crimson;
+        }
+
+        .flexbox>div:nth-child(4):hover {
+            background-color: darkgreen;
+        }
+
+        p {
+            height: 250px;
+            overflow: hidden;
+            font-family: "Rosario"
+        }
+    </style>
+
 </head>
+
 <body>
-   <nav>
-      		
-			<ol>
-				<li><a href="rozwijalnemenu.html">index</a></li>
-				<li><a href="#">Lab1</a>
-					<ul>
-						<li><a href="#">zad1</a></li>
-						<li><a href="#">zad2</a></li>
-						<li><a href="#">zad3</a></li>
-						<li><a href="#">zad3</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Lab2</a>
-					<ul>
-						<li><a href="#">zad1</a></li>
-						<li><a href="#">zad2</a></li>
-						<li><a href="#">zad3</a></li>
-						<li><a href="#">zad3</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Lab3</a>
-					<ul>
-						<li><a href="index.html">zad01</a></li>
-						<li><a href="R%C3%B3%C5%BCne%20sposoby%20u%C5%BCywania%20css.html">zad02 </a>
-                            <ul>
-                                <li><a href="R%C3%B3%C5%BCne%20sposoby%20u%C5%BCywania%20css.html">Rozne sposoby używania css</a></li>
-                            </ul>   
-                        </li>
-                            
-						<li><a href="">zad03</a>
-						    <ul>
-						        <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">zmiany wielkości tekstu</a></li>
-						        <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">em</a></li>
-						        <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">px</a></li>
-						        <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">%</a></li>
-						    </ul>
-						</li>
-						<li><a href="ustawienia%20t%C5%82a%20strony.html">zad04</a>
-						    <ul>
-						        <li><a href="ustawienia%20t%C5%82a%20strony.html">ustawienia tla</a></li>
-						    </ul>
-						</li>
-						<li><a href="selektory.html">zad05</a>
-						    <ul>
-						        <li><a href="selektory.html">selektory</a></li>
-						    </ul>
-						</li>
-						<li><a href="boxmodel%20i%20pozycjonowanie.html">zad06</a>
-						    <ul>
-						        <li><a href="boxmodel%20i%20pozycjonowanie.html">boxmodel i pozycjonowanie</a></li>
-						    </ul>
-						</li>
-						<li><a href="formatowanietekstu7.html">zad07</a>
-						    <ul>
-						        <li><a href="formatowanietekstu7.html"> 
+    <nav>
+
+        <ol>
+            <li><a href="rozwijalnemenu.html">index</a></li>
+            <li><a href="#">Lab1</a>
+                <ul>
+                    <li><a href="#">zad1</a></li>
+                    <li><a href="#">zad2</a></li>
+                    <li><a href="#">zad3</a></li>
+                    <li><a href="#">zad3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lab2</a>
+                <ul>
+                    <li><a href="#">zad1</a></li>
+                    <li><a href="#">zad2</a></li>
+                    <li><a href="#">zad3</a></li>
+                    <li><a href="#">zad3</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lab3</a>
+                <ul>
+                    <li><a href="index.html">zad01</a></li>
+                    <li><a href="R%C3%B3%C5%BCne%20sposoby%20u%C5%BCywania%20css.html">zad02 </a>
+                        <ul>
+                            <li><a href="R%C3%B3%C5%BCne%20sposoby%20u%C5%BCywania%20css.html">Rozne sposoby używania css</a></li>
+                        </ul>
+                    </li>
+
+                    <li><a href="">zad03</a>
+                        <ul>
+                            <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">zmiany wielkości tekstu</a></li>
+                            <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">em</a></li>
+                            <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">px</a></li>
+                            <li><a href="zmiany%20wielko%C5%9Bci%20tekstu.html">%</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="ustawienia%20t%C5%82a%20strony.html">zad04</a>
+                        <ul>
+                            <li><a href="ustawienia%20t%C5%82a%20strony.html">ustawienia tla</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="selektory.html">zad05</a>
+                        <ul>
+                            <li><a href="selektory.html">selektory</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="boxmodel%20i%20pozycjonowanie.html">zad06</a>
+                        <ul>
+                            <li><a href="boxmodel%20i%20pozycjonowanie.html">boxmodel i pozycjonowanie</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="formatowanietekstu7.html">zad07</a>
+                        <ul>
+                            <li><a href="formatowanietekstu7.html"> 
 						        różne sposoby formatowania tekstu
 						         oraz ustawianiej jego szerokości 
                                 </a></li>
-						    </ul>
-						</li>
-						<li><a href="border.html">zad08</a>
-						    <ul>
-						        <li><a href="border.html"> border-width, border-style, border-color.</a></li>
-						    </ul>
-						</li>
-						<li><a href="styltabel.html">zad09</a>
-                            <ul>
-                                <li><a href="styltabel.html">stylizowanie tabel</a></li>
-                            </ul>
-						</li>
-						<li><a href="atrybuty.html">zad10</a>
-						    <ul>
-						        <li><a href="atrybuty.html"> wartości atrybutów znaczników HTML</a></li>
-						    </ul>
-						</li>
-						<li><a href="media.html">zad11</a>
-						    <ul>
-						        <li><a href="media.html"> @media mobilne</a></li>
-						    </ul>
-						</li>
-						<li><a href="pseudklasy.html">zad12</a>
-						    <ul>
-						        <li><a href="pseudoklasy.html">działanie pseudklas</a></li>
-						    </ul>
-						</li>
-						<li><a href="rozwijalnemenu.html">zad13</a></li>
-					</ul>
-				</li>
-				<li><a href="#">Lab4</a>
-					<ul>
-						<li><a href="textshadow.html">zad1-text shadow</a></li>
-						<li><a href="radius.html">zad2-radius na div</a></li>
-						<li><a href="rgbahsla.html">zad3-hsla rgba </a></li>
-						<li><a href="boxshadow.html">zad4-box shadow </a></li>
-						<li><a href="gradienty.html">zad5-gradienty</a></li>
-						<li><a href="tlo.html">zad6-obrazki w tle</a></li>
-						<li><a href="obwodkiobrazkowe.html">zad7-obrazkowe obwódki</a></li>
-						<li><a href="animacja.html">zad8-animacja </a></li>
-						<li><a href="transisiontransform.html">zad9-transicion transform</a></li>
-						<li><a href="fonts.html">zad10-zewnetrzny font </a></li>
-						<li><a href="fblm.html">zad11- Flexible Box Layout Module</a></li>
-						<li><a href="publikowaniewielokolumnowe.html">zad12- publikowanie wielokolumnowego  </a></li>
-						<li><a href="media.html">zad13-rezponsywnosc</a></li>
-					</ul>
-				</li>
-				
-			</ol>
-   </nav>
-   <main>
-       
-   </main>
-    
+                        </ul>
+                    </li>
+                    <li><a href="border.html">zad08</a>
+                        <ul>
+                            <li><a href="border.html"> border-width, border-style, border-color.</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="styltabel.html">zad09</a>
+                        <ul>
+                            <li><a href="styltabel.html">stylizowanie tabel</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="atrybuty.html">zad10</a>
+                        <ul>
+                            <li><a href="atrybuty.html"> wartości atrybutów znaczników HTML</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="media.html">zad11</a>
+                        <ul>
+                            <li><a href="media.html"> @media mobilne</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="pseudklasy.html">zad12</a>
+                        <ul>
+                            <li><a href="pseudoklasy.html">działanie pseudklas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="rozwijalnemenu.html">zad13</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Lab4</a>
+                <ul>
+                    <li><a href="textshadow.html">zad1-text shadow</a></li>
+                    <li><a href="radius.html">zad2-radius na div</a></li>
+                    <li><a href="rgbahsla.html">zad3-hsla rgba </a></li>
+                    <li><a href="boxshadow.html">zad4-box shadow </a></li>
+                    <li><a href="gradienty.html">zad5-gradienty</a></li>
+                    <li><a href="tlo.html">zad6-obrazki w tle</a></li>
+                    <li><a href="obwodkiobrazkowe.html">zad7-obrazkowe obwódki</a></li>
+                    <li><a href="animacja.html">zad8-animacja </a></li>
+                    <li><a href="transisiontransform.html">zad9-transicion transform</a></li>
+                    <li><a href="fonts.html">zad10-zewnetrzny font </a></li>
+                    <li><a href="fblm.html">zad11- Flexible Box Layout Module</a></li>
+                    <li><a href="publikowaniewielokolumnowe.html">zad12- publikowanie wielokolumnowego  </a></li>
+                    <li><a href="media.html">zad13-rezponsywnosc</a></li>
+                </ul>
+            </li>
+
+        </ol>
+    </nav>
+    <main>
+        <div class="flexbox">
+            <div><img src="img/kwiatek.jpg" width="100px" height="100px" alt="kwiatek">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nam ipsa eveniet maiores illo neque rem, officia necessitatibus voluptatem eaque nisi dicta reprehenderit, distinctio quisquam, fugit totam sequi sed a.</p>
+            </div>
+            <div><img src="img/logo.png" width="100px" height="100px" alt="logo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum quae ipsam deserunt, ut, obcaecati laborum. Perspiciatis dolore, facere ex aut aliquam hic debitis pariatur nesciunt laborum ducimus, nostrum odio aliquid.</p>
+            </div>
+            <div><img src = "img/koperta.png" width="100px" height="100px" alt="koperta">
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam impedit harum temporibus. Et vitae, laborum dolore incidunt in minima odit sequi doloremque animi illum delectus pariatur veniam laboriosam laudantium ut.</p>
+            </div>
+            <div><img src = "img/kwiatek.jpg" width="100px" height="100px">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, maiores magnam quidem. Blanditiis voluptas error consectetur similique animi sapiente voluptates iure debitis nemo incidunt quisquam, dicta itaque a, et molestiae.
+                </p>
+            </div>
+        </div>
+    </main>
+
 </body>
 </html>
