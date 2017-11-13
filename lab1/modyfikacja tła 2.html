@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="utf-8">
+    <title>MODYFIKACJA TŁA STRONY</title>
+    <style>
+        #example1 {
+            border: 20px solid black;
+            padding: 50px;
+            background: url(img/backgroundIm.jpg);
+            background-repeat: no-repeat;
+        }
+
+        #example2 {
+            border: 20px solid black;
+            padding: 50px;
+            background: url(img/backgroundIm.jpg);
+            background-repeat: repeat-x;
+            background-origin: border-box;
+        }
+
+        #example3 {
+            border: 20px solid black;
+            padding: 50px;
+            background-position: right;
+            background: url(img/backgroundIm2.jpg);
+            background-repeat: no-repeat;
+            background-origin: content-box;
+        }
+        
+        #example4 {
+            height: 800px;
+            border: 20px solid black;
+            padding: 50px;
+            background-position: right;
+            background: url(img/backgroundIm2.jpg);
+            background-repeat: repeat-y;
+            background-position: right
+        }
+    </style>
+</head>
+<body>
+    <div id="example1">
+        <h2>Obrazek zaczyna się w górnym lewym rogu krawędzi ramki</h2>
+    </div>
+    <br>
+    <div id="example2">
+        <h2>Obrazek zaczyna się w górnym lewym rogu krawędzi paddingu</h2>
+    </div>
+    <br>
+    <div id="example3">
+        <h2>Obrazek zaczyna się w górnym lewym rogu contentu</h2>
+    </div>
+    <br>
+    <div id="example4">
+        <h2>Obrazek przesunięty w prawo</h2>
+    </div>
+</body>
+</html>
