@@ -1,4 +1,8 @@
-var haslo = "Bez pracy nie ma kołaczy";
+
+var hasla=["bez pracy nie ma kołaczy", "byle do piątku", "gdzie kucharek sześć tam nie ma co jeść", "nosił wilk razy kilka ponieśli i wilka"];
+var los = Math.floor(Math.random() * 4);
+console.log(los);
+var haslo =hasla[los] ;
 haslo = haslo.toUpperCase();
 
 var dlugosc = haslo.length;
