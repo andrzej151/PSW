@@ -74,12 +74,12 @@ function start()
 {
 	
 	var tresc_diva ="";
-	
-	for (i=0; i<=34; i++)
+	var element = "";
+	for (i=0; i<=34; i+=1)
 	{
-		var element = "lit" + i;
+		element = "lit" + i;
 		tresc_diva = tresc_diva + '<div class="litera" onclick="sprawdz('+i+')" id="'+element+'">'+litery[i]+'</div>';
-		if ((i+1) % 7 ==0) tresc_diva = tresc_diva + '<div style="clear:both;"></div>';
+	if ((i+1) % 7 ==0) {tresc_diva = tresc_diva + '<div style="clear:both;"></div>';}
 	}
 	
 	document.getElementById("alfabet").innerHTML = tresc_diva;
@@ -90,7 +90,7 @@ function start()
 
 String.prototype.ustawZnak = function(miejsce, znak)
 {
-	if (miejsce > this.length - 1) return this.toString();
+	if (miejsce > this.length - 1) {return this.toString();}
 	else return this.substr(0, miejsce) + znak + this.substr(miejsce+1);
 }
 
@@ -100,7 +100,7 @@ function sprawdz(nr)
 	
 	var trafiona = false;
 	
-	for(i=0; i<dlugosc; i++)
+	for(i=0; i<dlugosc; i+=1)
 	{
 		if (haslo.charAt(i) == litery[nr]) 
 		{
