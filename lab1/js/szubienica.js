@@ -1,6 +1,6 @@
 
-var hasla=["bez pracy nie ma kołaczy", "byle do piątku", "gdzie kucharek sześć tam nie ma co jeść", "nosił wilk razy kilka ponieśli i wilka"];
-var los = Math.floor(Math.random() * 4);
+var hasla=["bez pracy nie ma kołaczy", "byle do piątku", "gdzie kucharek sześć tam nie ma co jeść", "nosił wilk razy kilka ponieśli i wilka", "grzegorz brzęczyszczykiewicz", "harry potter i czara ognia", "lot nad kukułczym gniazdem", "przerwana lekcja muzyki","chłopiec w pasiastej piżamie"];
+var los = Math.floor(Math.random() * 9);
 console.log(los);
 
 function Onkey(ev){
