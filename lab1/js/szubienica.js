@@ -3,6 +3,30 @@ var hasla=["bez pracy nie ma kołaczy", "byle do piątku", "gdzie kucharek sześ
 var los = Math.floor(Math.random() * 4);
 console.log(los);
 
+function Onkey(ev){
+        if(ev.keyCode==32||ev.keyCode==38||ev.keyCode==37||ev.keyCode==39||ev.keyCode==40)
+            {
+                ev.preventDefault();
+                if(ev.type=='keydown'){
+                 
+                    if(ev.keyCode==37){
+                        alert("strzałka w lewo");
+                    }else if(ev.keyCode==38){
+                        alert("strzałka w górę");
+                    }else if(ev.keyCode==39){
+                        alert("strzałka w prawo");
+                    }else if(ev.keyCode==40){
+                        alert("strzałka w doł");
+                    }else if(ev.keyCode==32){
+                        alert("spacja");
+                    }
+                }
+            }
+        
+    };
+
+
+ window.addEventListener('keydown', Onkey, false);
 
 var haslo = window.prompt("Podaj hasło");
 if(haslo==""){
