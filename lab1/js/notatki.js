@@ -12,7 +12,7 @@
   
   onDragStart = function (ev) {
     var boundingClientRect;
-    if (ev.target.className.indexOf('bar') === -1) {
+    if (ev.target.className.indexOf('bar') == -1) {
       return;
     }
     
@@ -50,28 +50,30 @@
   };
   
   createNote = function () {
-    var stickerEl = document.createElement('div'),
-        barEl = document.createElement('div'),
-        textareaEl = document.createElement('textarea');
+    var sticker = document.createElement('div'),
+        bar = document.createElement('div'),
+        textarea = document.createElement('textarea');
+        textarea.addEventListener('focus', function(){this.innerHTML="wpisz text";}, false);
+        textarea.addEventListener('blur', function(){this.innerHTML=" papa";}, false);
+      
+    var transformCSS = "translateX(" + Math.random() * 300 + "px) translateY(" + Math.random() * 300 + "px)";
     
-    var transformCSSValue = "translateX(" + Math.random() * 400 + "px) translateY(" + Math.random() * 400 + "px)";
+    sticker.style.transform = transformCSS; 
     
-    stickerEl.style.transform = transformCSSValue; 
+    bar.classList.add('bar');
+    sticker.classList.add('sticker');
     
-    barEl.classList.add('bar');
-    stickerEl.classList.add('sticker');
+    sticker.appendChild(bar);
+    sticker.appendChild(textarea); 
     
-    stickerEl.appendChild(barEl);
-    stickerEl.appendChild(textareaEl); 
+    sticker.addEventListener('mousedown', onDragStart, false);
     
-    stickerEl.addEventListener('mousedown', onDragStart, false);
-    
-    document.body.appendChild(stickerEl);
+    document.body.appendChild(sticker);
   };
   
   createNote(); 
   
-  addNoteBtnEl = document.querySelector('.addNoteBtn');
+  addNoteBtnEl = document.querySelector('.addNote');
   addNoteBtnEl.addEventListener('click', createNote, false);
   document.addEventListener('mousemove', onDrag, false);
   document.addEventListener('mouseup', onDragEnd, false);
