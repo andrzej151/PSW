@@ -21,9 +21,8 @@ function replace(){
     var newItem = document.createElement("LI");
     var textNode = document.createTextNode("zamieniony element");
     newItem.appendChild(textNode);
-    
     var list = document.getElementById("lista");
-    list.replaceChild(newItem, list.childNodes[0]);
+    list.replaceChild(newItem, list.lastElementChild);
 }
 
 function remove(){
