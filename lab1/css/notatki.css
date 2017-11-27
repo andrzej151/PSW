@@ -11,7 +11,7 @@
   left: 0;
   top: 0;
   border: 1px solid #34b399;
-  box-shadow: 5px 5px 10px rgba(0,0,0,0.5);
+  box-shadow: 5px 5px 10px #333333;
 }
 
 .sticker .bar {
@@ -19,7 +19,7 @@
   top: 0;
   left: 0;
   height: 20px;
-  background: #34b399;
+  background: #c91010;
   width: 100%;
 }
 
@@ -34,7 +34,7 @@
 
 .sticker .bar:hover {
   cursor: move;
-  background: #4bd0b5;
+  background: #da2121;
 }
 
 .sticker:hover {

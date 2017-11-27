@@ -50,28 +50,28 @@
   };
   
   createNote = function () {
-    var stickerEl = document.createElement('div'),
-        barEl = document.createElement('div'),
-        textareaEl = document.createElement('textarea');
+    var sticker = document.createElement('div'),
+        bar = document.createElement('div'),
+        textarea = document.createElement('textarea');
     
-    var transformCSSValue = "translateX(" + Math.random() * 400 + "px) translateY(" + Math.random() * 400 + "px)";
+    var transformCSS = "translateX(" + Math.random() * 300 + "px) translateY(" + Math.random() * 300 + "px)";
     
-    stickerEl.style.transform = transformCSSValue; 
+    sticker.style.transform = transformCSS; 
     
-    barEl.classList.add('bar');
-    stickerEl.classList.add('sticker');
+    bar.classList.add('bar');
+    sticker.classList.add('sticker');
     
-    stickerEl.appendChild(barEl);
-    stickerEl.appendChild(textareaEl); 
+    sticker.appendChild(bar);
+    sticker.appendChild(textarea); 
     
-    stickerEl.addEventListener('mousedown', onDragStart, false);
+    sticker.addEventListener('mousedown', onDragStart, false);
     
-    document.body.appendChild(stickerEl);
+    document.body.appendChild(sticker);
   };
   
   createNote(); 
   
-  addNoteBtnEl = document.querySelector('.addNoteBtn');
+  addNoteBtnEl = document.querySelector('.addNote');
   addNoteBtnEl.addEventListener('click', createNote, false);
   document.addEventListener('mousemove', onDrag, false);
   document.addEventListener('mouseup', onDragEnd, false);
