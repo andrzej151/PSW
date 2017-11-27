@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8" />
+	<title>Kolekcje</title>
+</head>
+<body>
+    <img src="img/koperta.png" height="150" width="150" />
+    <img src="img/kwiatek.jpg" height="150" width="150"/>
+    <img src="img/logo.png" height="150" width="150"/>
+    
+    <script src="js/punkt%202.js"></script>
+    <br>
+    <button type="button" onclick="printURLs()">Pokaż adresy obrazków (wykorzystanie kolekcji images)</button>
+    <br>
+    <br><br>
+    <a href="https://www.google.pl/">GOOGLE</a>
+    <a href="http://www.fcbarca.com/">FCBarca</a>
+    <a href="https://www.youtube.com/?hl=pl&gl=PL">YouTube</a>
+    <a href="http://eportal.pwr.edu.pl/">EPORTAL</a>
+    <br><br>
+    <button type="button" onclick="countLinks()">Pokaż ilość linków (wykorzystanie kolekcji links)</button>
+    <br><br><br>
+    <form id="myCarForm">
+        Favorite Car: <input type="text" name="fname" value="Volvo">
+    </form>
+
+    <form id="myColorForm">
+        Favorite Color: <input type="text" name="favcolor" value="Blue">
+    </form>
+    <br>
+    <button type="button" onclick="getID()">Pokaż id pierwszego formularza (wykorzystanie kolekcji forms i atrybutu item)</button>
+    <br><br><br>
+    <a name="1">tekst1</a><br>
+    <a name="2">tekst2</a><br>
+    <a name="3">tekst3</a><br>
+    <br>
+    <button onclick="getAnchors()">Zmień tło elementu kolekcji anchors o nazwie 2 na kolor czerwony (użycie kolekcji anchors i atrybutu namedItem)</button>
+    <br>
+    <p id="wynik"></p>
+</body>
+</html>
