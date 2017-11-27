@@ -12,7 +12,7 @@
   
   onDragStart = function (ev) {
     var boundingClientRect;
-    if (ev.target.className.indexOf('bar') === -1) {
+    if (ev.target.className.indexOf('bar') == -1) {
       return;
     }
     
@@ -53,7 +53,9 @@
     var sticker = document.createElement('div'),
         bar = document.createElement('div'),
         textarea = document.createElement('textarea');
-    
+        textarea.addEventListener('focus', function(){this.innerHTML="wpisz text";}, false);
+        textarea.addEventListener('blur', function(){this.innerHTML=" papa";}, false);
+      
     var transformCSS = "translateX(" + Math.random() * 300 + "px) translateY(" + Math.random() * 300 + "px)";
     
     sticker.style.transform = transformCSS; 
