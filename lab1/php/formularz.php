@@ -6,11 +6,14 @@
     </head>
     <body>
         <?php
-            if(!preg_match("\d{3}[\-]\d{3}[\-]\d{3})", $_POST["telefon"]))
+        
+      
+        if(!preg_match('/[0-9]{3}-[0-9]{3}-[0-9]{3}/', $_POST['telefon']))
             {
-                print("<p>Niepoprawny numer telefonu</p><p>Wprowadź numer w formacie 123-123-123</p></body></html>");
-                die();
+                echo("<p>Niepoprawny numer telefonu</p><p>Wprowadź numer w formacie 123-123-123</p>");
+                exit();
             }
+     
         ?> 
     </body>
 </html>
