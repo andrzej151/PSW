@@ -1,6 +1,47 @@
 <?php
 
 	session_start();
+
+    if (isset($_SESSION['zalogowany']))
+	{
+        
+        	require_once "connect.php";
+		mysqli_report(MYSQLI_REPORT_STRICT);
+		
+		try 
+		{
+			$polaczenie = new mysqli($host, $db_user, $db_password, $db_name);
+			if ($polaczenie->connect_errno!=0)
+			{
+				throw new Exception(mysqli_connect_errno());
+			}
+			else
+			{
+			
+                $id=$_SESSION['id'];
+				$rezultat = $polaczenie->query("SELECT * FROM uzytkownicy WHERE id='$id'");
+				
+				if (!$rezultat) throw new Exception($polaczenie->error);
+                
+                $wiersz = $rezultat->fetch_assoc();
+                
+                $_SESSION['fr_nick'] = $wiersz['user'];
+                $_SESSION['fr_email'] = $wiersz['email'];
+                
+				
+				
+				$polaczenie->close();
+			}
+			
+		}
+		catch(Exception $e)
+		{
+			echo '<span style="color:red;">Błąd serwera! Przepraszamy za niedogodności i prosimy o rejestrację w innym terminie!</span>';
+			echo '<br />Informacja developerska: '.$e;
+		}
+        
+	
+	}
 	
 	if (isset($_POST['email']))
 	{
