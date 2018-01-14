@@ -37,3 +37,5 @@ C:\Users\Ja\source\repos\WebApplication8\WebApplication8\obj\Debug\WebApplicatio
 C:\Users\Ja\source\repos\WebApplication8\WebApplication8\obj\Debug\WebApplication8.csproj.CoreCompileInputs.cache
 C:\Users\Ja\source\repos\WebApplication8\WebApplication8\obj\Debug\WebApplication8.dll
 C:\Users\Ja\source\repos\WebApplication8\WebApplication8\obj\Debug\WebApplication8.pdb
+X:\studia\sem5\web\lab\lab1\ASP.NET\Lista1\WebApplication8\WebApplication8\obj\Debug\WebApplication8.csprojResolveAssemblyReference.cache
+X:\studia\sem5\web\lab\lab1\ASP.NET\Lista1\WebApplication8\WebApplication8\obj\Debug\WebApplication8.csproj.CoreCompileInputs.cache
