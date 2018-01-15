@@ -1,0 +1,125 @@
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Laboratorium 10.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Laboratorium 10.pdb
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Antlr3.Runtime.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.Core.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\EntityFramework.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\System.Web.Optimization.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\System.Web.Providers.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\WebGrease.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\EntityFramework.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.Core.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\obj\Debug\Laboratorium 10.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 10\Laboratorium 10\obj\Debug\Laboratorium 10.pdb
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Laboratorium 10.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Laboratorium 10.pdb
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Antlr3.Runtime.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.Core.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\EntityFramework.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\System.Web.Optimization.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\System.Web.Providers.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\WebGrease.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\EntityFramework.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.Core.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\obj\Debug\Laboratorium 10.dll
+C:\Users\Ciunkos\Dropbox\Studia\Programowanie Systemów Webowych\Laboratorium 11\Laboratorium 10\obj\Debug\Laboratorium 10.pdb
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Laboratorium 10.dll.config
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Laboratorium 10.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Laboratorium 10.pdb
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Antlr3.Runtime.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.AspNet.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.Core.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\EntityFramework.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Microsoft.ScriptManager.MSAjax.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Microsoft.ScriptManager.WebForms.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\Microsoft.Web.Infrastructure.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\System.Web.Optimization.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\System.Web.Providers.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\WebGrease.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\EntityFramework.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.Core.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\bin\DotNetOpenAuth.AspNet.xml
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\obj\Debug\Laboratorium 10.csprojResolveAssemblyReference.cache
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\obj\Debug\Laboratorium 10.dll
+E:\Studia\Dropbox\PWR-W8INF-2013 (1)\Semestr V\PSW\Grupowe\LAB\Laboratorium 11\Laboratorium 10\obj\Debug\Laboratorium 10.pdb
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Laboratorium 10.dll.config
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Laboratorium 10.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Laboratorium 10.pdb
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Antlr3.Runtime.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.Core.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\EntityFramework.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\System.Web.Optimization.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\System.Web.Providers.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\WebGrease.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Org.Mentalis.Security.Cryptography.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Mono.Math.dll
+C:\Users\Ja\Desktop\Laboratorium 10\bin\EntityFramework.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.Core.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Org.Mentalis.Security.Cryptography.xml
+C:\Users\Ja\Desktop\Laboratorium 10\bin\Mono.Math.xml
+C:\Users\Ja\Desktop\Laboratorium 10\obj\Debug\Laboratorium 10.csprojResolveAssemblyReference.cache
+C:\Users\Ja\Desktop\Laboratorium 10\obj\Debug\Laboratorium 10.csproj.CoreCompileInputs.cache
+C:\Users\Ja\Desktop\Laboratorium 10\obj\Debug\Laboratorium 10.dll
+C:\Users\Ja\Desktop\Laboratorium 10\obj\Debug\Laboratorium 10.pdb
